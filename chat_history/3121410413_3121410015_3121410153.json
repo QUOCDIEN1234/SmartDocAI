@@ -1,0 +1,56 @@
+[
+  {
+    "question": "các thành viên trong nhóm là ai",
+    "answer": "Xin lỗi, nhưng thông tin về các thành viên trong nhóm không có trong context cung cấp. Tôi không thể trả lời câu hỏi của bạn vì không có dữ liệu liên quan.",
+    "sources": [
+      {
+        "content": "Công cụ phân tích thanh toán\nVNPay SDK: Hỗ trợ xử lý thanh toán và tra cứu đơn hàng.\nZaloPay SDK: Xử lý các giao dịch liên quan đến ZaloPay.\nCông nghệ xử lý giọng nói\nMicrosoft Cognitive Services Speech SDK: Nhận diện và xử lý giọng nói.\nAssembly AI SDK: Hỗ trợ dịch vụ chuyển giọng nói thành văn bản.\nChatbot và AI\nOpenAI API: Dịch vụ AI mạnh mẽ hỗ trợ xử lý ngôn ngữ tự nhiên, tạo văn bản, trả lời câu hỏi, và nhiều tính năng khác. Yêu cầu xác thực bằng khóa API và được tích hợp dễ dàng qua HTTP hoặc SDK.\nGiao diện\nTailwind CSS: Thiết kế giao diện nhanh chóng, tiện lợi và đẹp mắt hơn.\nFont Awesome: Hỗ trợ hệ thống icon đẹp mắt, đa dạng.\nSweet Alert: Các component thông báo/cảnh báo được tạo sẵn giúp việc làm web trở nên đơn giản hơn bao giờ hết.\nTích hợp khác\nJava Spring Mail: Gửi email xác thực người dùng hoặc thông báo.\nCông nghệ và Công cụ Hỗ trợ:\nJava 17: Ngôn ngữ lập trình chính của dự án.\nMaven: Quản lý phụ thuộc và xây dựng dự án.\nUI/UX Design\nGiao diện USER",
+        "metadata": {}
+      },
+      {
+        "content": "Phương pháp nghiên cứu:\nThu thập dữ liệu và phân tích các quy trình truyền thống trong việc đặt vé và quản lý thông tin xe buýt từ các bến xe hiện tại, tham khảo các ý tưởng thực hiện từ các website của các nhà xe trên thị trường.\nThu thập và phân loại các yêu cầu chức năng và phi chức năng thông qua khảo sát người dùng.\nThiết kế và xây dựng hệ thống, sử dụng mô hình hóa nghiệp vụ để thiết kế cơ sở dữ liệu và quy trình nghiệp vụ. Phát triển hệ thống bằng ngôn ngữ lập trình và framework phù hợp (Java, Spring Boot, …).\nTìm hiểu và tích hợp các công nghệ, tiện ích có sẵn trên thị trường vào đề tài để nâng cao trải nghiệm người dùng.\nKhám phá và ứng dụng AI vào đề tài.\nTriển khai kiểm thử các tính năng chính để đảm bảo tính ổn định và độ chính xác của hệ thống trước khi áp dụng.\nPhạm vi nghiên cứu:",
+        "metadata": {}
+      },
+      {
+        "content": "Người dùng cũng có thể hỏi về các dịch vụ bổ sung như hành lý, lựa chọn ghế ngồi, hoặc các ưu đãi đang có. Chatbot sẽ cung cấp thông tin một cách chi tiết và dễ hiểu, giúp người dùng có thể thao tác nhanh mà không cần phải tìm kiếm thủ công. Đặc biệt, chatbot còn hỗ trợ hướng dẫn người dùng nếu gặp khó khăn trong việc thanh toán hoặc cần thay đổi thông tin vé đã đặt.\nNgoài ra, chatbot có thể xử lý các yêu cầu dựa trên ngôn ngữ tự nhiên, như \"Tôi muốn đặt vé đi Đà Lạt vào cuối tuần này\", giúp người dùng có trải nghiệm liền mạch và thuận tiện hơn. Hệ thống chatbot hoạt động 24/7, đảm bảo người dùng luôn nhận được sự hỗ trợ nhanh chóng mọi lúc, mọi nơi.\n1.14 Tìm kiếm bằng giọng nói thông minh",
+        "metadata": {}
+      },
+      {
+        "content": "Công nghệ và Công cụ Hỗ trợ:\nJava 17: Ngôn ngữ lập trình chính của dự án.\nMaven: Quản lý phụ thuộc và xây dựng dự án.\nUI/UX Design\nGiao diện USER\nHình 2: Giao diện trang chủ\n- Landing page dành cho khách hàng\nGiao diện đăng nhập/đăng ký\nĐăng nhập",
+        "metadata": {}
+      },
+      {
+        "content": "Hình 37: Giao diện thống kê\n- Xem số người dùng đăng ký mới, số hóa đơn mới, số vé đã bán trong tháng\n- Xem biểu đồ thống kê số hóa đơn, vé bán, doanh thu theo khoảng thời gian được chọn\nProject Structure\nCấu trúc các package trong dự án được tổ chức theo chức năng như sau:\n Hình 38: Cấu trúc tổng thể dự án\nConfig: Chứa các file cấu hình cho ứng dụng, ví dụ như cấu hình bảo mật, kết nối cơ sở dữ liệu, hoặc cấu hình chung cho toàn bộ hệ thống.\n\tHình 39: Cấu trúc Config\nFilter: Bao gồm các lớp dùng để xử lý luồng dữ liệu, chẳng hạn như lọc request/response trong ứng dụng web.\n Hình 40: Cấu trúc Filter",
+        "metadata": {}
+      }
+    ],
+    "timestamp": "2026-04-16T21:25:09.045476"
+  },
+  {
+    "question": "Ngô quốc điền là ai",
+    "answer": "Ngô Quốc Điền là một trong những tác giả của báo cáo cuối kỳ học phần Chuyên đề J2EE. Cụ thể, ông có mã số sinh viên là 3121410153.",
+    "sources": [
+      {
+        "content": "Người dùng cũng có thể hỏi về các dịch vụ bổ sung như hành lý, lựa chọn ghế ngồi, hoặc các ưu đãi đang có. Chatbot sẽ cung cấp thông tin một cách chi tiết và dễ hiểu, giúp người dùng có thể thao tác nhanh mà không cần phải tìm kiếm thủ công. Đặc biệt, chatbot còn hỗ trợ hướng dẫn người dùng nếu gặp khó khăn trong việc thanh toán hoặc cần thay đổi thông tin vé đã đặt.\nNgoài ra, chatbot có thể xử lý các yêu cầu dựa trên ngôn ngữ tự nhiên, như \"Tôi muốn đặt vé đi Đà Lạt vào cuối tuần này\", giúp người dùng có trải nghiệm liền mạch và thuận tiện hơn. Hệ thống chatbot hoạt động 24/7, đảm bảo người dùng luôn nhận được sự hỗ trợ nhanh chóng mọi lúc, mọi nơi.\n1.14 Tìm kiếm bằng giọng nói thông minh",
+        "metadata": {}
+      },
+      {
+        "content": "Công cụ phân tích thanh toán\nVNPay SDK: Hỗ trợ xử lý thanh toán và tra cứu đơn hàng.\nZaloPay SDK: Xử lý các giao dịch liên quan đến ZaloPay.\nCông nghệ xử lý giọng nói\nMicrosoft Cognitive Services Speech SDK: Nhận diện và xử lý giọng nói.\nAssembly AI SDK: Hỗ trợ dịch vụ chuyển giọng nói thành văn bản.\nChatbot và AI\nOpenAI API: Dịch vụ AI mạnh mẽ hỗ trợ xử lý ngôn ngữ tự nhiên, tạo văn bản, trả lời câu hỏi, và nhiều tính năng khác. Yêu cầu xác thực bằng khóa API và được tích hợp dễ dàng qua HTTP hoặc SDK.\nGiao diện\nTailwind CSS: Thiết kế giao diện nhanh chóng, tiện lợi và đẹp mắt hơn.\nFont Awesome: Hỗ trợ hệ thống icon đẹp mắt, đa dạng.\nSweet Alert: Các component thông báo/cảnh báo được tạo sẵn giúp việc làm web trở nên đơn giản hơn bao giờ hết.\nTích hợp khác\nJava Spring Mail: Gửi email xác thực người dùng hoặc thông báo.\nCông nghệ và Công cụ Hỗ trợ:\nJava 17: Ngôn ngữ lập trình chính của dự án.\nMaven: Quản lý phụ thuộc và xây dựng dự án.\nUI/UX Design\nGiao diện USER",
+        "metadata": {}
+      },
+      {
+        "content": "Security: Chứa các thành phần liên quan đến bảo mật như cấu hình xác thực, cấp quyền hoặc các cơ chế bảo mật khác.\n Hình 41: Cấu trúc Sercurity\nController: Chứa các lớp điều khiển (controller), nơi xử lý các yêu cầu HTTP từ phía người dùng, tương tác với dịch vụ để trả về dữ liệu hoặc giao diện.\n Hình 40: Cấu trúc Filter\nApi: Tập hợp các endpoint API được thiết kế để giao tiếp với front-end hoặc các hệ thống bên ngoài.\n\tHình 41: Cấu trúc Api\nOutSource: Lưu trữ các mã nguồn, cấu hình hoặc tài nguyên từ bên ngoài được tích hợp vào dự án.\n Hình 42: Cấu trúc OutSource\nDTO: Chứa các lớp dùng để chuyển dữ liệu giữa các lớp hoặc tầng khác nhau của ứng dụng.\n\t Hình 43: Cấu trúc DTO",
+        "metadata": {}
+      },
+      {
+        "content": "1.11 Nhận thông báo qua email\nNgười dùng sẽ nhận được thông báo qua email khi đặt vé thành công hoặc có thay đổi liên quan đến chuyến đi (như hủy chuyến, đổi giờ). Thông báo này giúp người dùng luôn cập nhật tình trạng vé của mình.\n1.12 Lọc lịch sử vé theo thời gian\nNgười dùng có thể lọc lịch sử các chuyến đi theo khoảng thời gian (ví dụ: trong vòng 1 tháng, 6 tháng). Điều này giúp họ theo dõi các chuyến đã đi, chuyến đã hủy, và tổng số tiền đã chi tiêu cho vé xe.\n1.13 Chat bot (GPT)\nNgười dùng có thể tương tác với hệ thống chatbot thông minh, được hỗ trợ bởi GPT, để hỏi thông tin chi tiết về các chuyến xe, tuyến đường, giá vé, và các dịch vụ khác liên quan đến việc đặt vé xe. Chatbot sẽ giúp giải đáp mọi thắc mắc của người dùng một cách nhanh chóng, từ việc tra cứu thông tin các tuyến xe cụ thể, lịch trình, giờ khởi hành, điểm đón/trả khách, cho đến việc hỗ trợ hướng dẫn đặt vé, thanh toán và chính sách hủy vé.",
+        "metadata": {}
+      },
+      {
+        "content": "TRƯỜNG ĐẠI HỌC SÀI GÒN\nKHOA CÔNG NGHỆ THÔNG TIN\n \n \n  \nBÁO CÁO CUỐI KỲ\nHỌC PHẦN: CHUYÊN ĐỀ J2EE\nĐỀ TÀI:\nỨng dụng đặt vé xe khách\n\n3121410413-Phan Văn Quyến\n3121410153-Ngô Quốc Điền\n3121410015-Trần Phan Minh Thông\n\n\t\t \n      GVHD: Nguyễn Thanh Phước\nTP. HCM THÁNG 5/2025\nMỤC LỤC",
+        "metadata": {}
+      }
+    ],
+    "timestamp": "2026-04-16T21:26:32.687729"
+  }
+]
