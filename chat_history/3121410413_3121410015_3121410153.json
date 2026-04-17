@@ -52,5 +52,129 @@
       }
     ],
     "timestamp": "2026-04-16T21:26:32.687729"
+  },
+  {
+    "question": "này là cái gì vậy",
+    "answer": "Xin lỗi, nhưng câu của bạn không rõ ràng enough，您能再说清楚一些吗？我无法理解您的问题。",
+    "sources": [
+      {
+        "content": "1.6 Đặt vé xe\nNgười dùng có thể chọn tuyến đường, điểm đi, điểm đến, ngày giờ xuất phát, loại vé (ví dụ: vé thường, vé giường nằm) và số lượng vé cần đặt. Hệ thống sẽ hiển thị các tùy chọn về lịch trình và giá vé để người dùng lựa chọn. Sau khi chọn vé, người dùng sẽ xác nhận thông tin và thanh toán.\n1.7 Thanh toán thuận tiện bằng ZaloPay, VNPay\nHệ thống hỗ trợ người dùng thanh toán nhanh chóng và tiện lợi thông qua các ví điện tử phổ biến như ZaloPay và VNPay. Sau khi đặt vé thành công, người dùng có thể chọn phương thức thanh toán bằng ZaloPay hoặc VNPay.\nKhi chọn ZaloPay hoặc VNPay, hệ thống sẽ tự động chuyển hướng đến giao diện thanh toán của ví điện tử tương ứng, nơi người dùng có thể quét mã QR hoặc xác nhận thanh toán qua ứng dụng di động. Việc này giúp người dùng thanh toán dễ dàng, không cần phải nhập thông tin thẻ hoặc thực hiện các thao tác phức tạp.",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Tên người dùng: Người quản lý có thể tìm kiếm nhanh chóng các tài khoản người dùng bằng cách nói tên người dùng hoặc email.\nBiển số xe: Nhà xe có thể tra cứu thông tin xe hoặc lịch sử bảo dưỡng của xe bằng cách chỉ cần nói biển số xe.\nChuyến xe: Người quản lý có thể tìm kiếm chuyến xe theo tuyến đường, thời gian khởi hành hoặc điểm đón/trả khách.\nTài xế: Chức năng này giúp tìm kiếm nhanh chóng thông tin về tài xế dựa trên tên, mã số, hoặc lịch làm việc của họ.\nHệ thống sử dụng công nghệ nhận diện giọng nói chính xác để chuyển đổi câu lệnh của người dùng thành các từ khóa tìm kiếm. Sau khi nhận diện, hệ thống sẽ tự động hiển thị kết quả tương ứng với yêu cầu của người quản lý, tiết kiệm thời gian và giảm thiểu sai sót khi nhập liệu thủ công.",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Khám phá và ứng dụng AI vào đề tài.\nTriển khai kiểm thử các tính năng chính để đảm bảo tính ổn định và độ chính xác của hệ thống trước khi áp dụng.\nPhạm vi nghiên cứu:\nNghiên cứu triển khai hệ thống trong khoảng thời gian 14 tuần. Chủ yếu áp dụng tại các bến xe khách tập trung nhu cầu cao về việc sử dụng dịch vụ xe buýt và người dùng có nhu cầu đặt vé xe nhanh chóng tiện lợi tại nhà.\nHệ thống tập trung vào các chức năng sau:\nĐăng nhập, đăng ký tài khoản cho người dùng.\nQuản lý thông tin người dùng, tài khoản, và quyền hạn.\nQuản lý chuyến xe, tuyến đường, chỗ ngồi, hóa đơn và vé xe.\nTối ưu và đơn giản hóa quy trình tìm kiếm tuyến đường và đặt vé xe, tra cứu vé xe, có thể sử dụng khi không đăng nhập.\nĐa dạng hóa phương thức thanh toán và quản lý hóa đơn.\nThống kê và báo cáo hoạt động, doanh thu.\nCHƯƠNG 2: SYSTEM REQUIREMENTS\n1. Chức năng của Người Dùng\n1.1 Đăng ký tài khoản",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "1.14 Tìm kiếm bằng giọng nói thông minh\nNgười dùng có thể sử dụng chức năng tìm kiếm bằng giọng nói để đặt vé một cách nhanh chóng và thuận tiện. Khi người dùng nói câu như \"Tôi muốn đi Vũng Tàu\", hệ thống sẽ tự động nhận diện vị trí hiện tại của người dùng, ví dụ như \"TP. Hồ Chí Minh\", dựa trên thông tin từ thiết bị của họ. Chat GPT, với dữ liệu tuyến đường đã được truyền vào hệ thống, sẽ kiểm tra xem tuyến đường \"TP. Hồ Chí Minh - Vũng Tàu\" có tồn tại hay không.\nNếu tuyến đường tồn tại, hệ thống sẽ trả về kết quả với định dạng \"Điểm đi - Điểm đến\" (ví dụ: \"TP. Hồ Chí Minh - Vũng Tàu\") và hiển thị các thông tin chi tiết về lịch trình, giờ chạy, giá vé và các tùy chọn chuyến xe cho người dùng. Trong trường hợp tuyến đường không tồn tại hoặc có sai sót, hệ thống sẽ thông báo cho người dùng rằng tuyến đường đó hiện chưa được hỗ trợ và đề xuất các phương án khác nếu có.",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Người dùng cũng có thể hỏi về các dịch vụ bổ sung như hành lý, lựa chọn ghế ngồi, hoặc các ưu đãi đang có. Chatbot sẽ cung cấp thông tin một cách chi tiết và dễ hiểu, giúp người dùng có thể thao tác nhanh mà không cần phải tìm kiếm thủ công. Đặc biệt, chatbot còn hỗ trợ hướng dẫn người dùng nếu gặp khó khăn trong việc thanh toán hoặc cần thay đổi thông tin vé đã đặt.\nNgoài ra, chatbot có thể xử lý các yêu cầu dựa trên ngôn ngữ tự nhiên, như \"Tôi muốn đặt vé đi Đà Lạt vào cuối tuần này\", giúp người dùng có trải nghiệm liền mạch và thuận tiện hơn. Hệ thống chatbot hoạt động 24/7, đảm bảo người dùng luôn nhận được sự hỗ trợ nhanh chóng mọi lúc, mọi nơi.\n1.14 Tìm kiếm bằng giọng nói thông minh",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T09:24:51.215053"
+  },
+  {
+    "question": "báo cáo  này đang nói gì vậy",
+    "answer": "Báo cáo này là về một dự án ứng dụng đặt vé xe khách sử dụng công nghệ J2EE. Trong đó, Ngô Quốc Điền (mã số sinh viên: 3121410153) là một trong những tác giả của báo cáo này.\n\nBáo cáo giới thiệu về việc áp dụng trí tuệ nhân tạo (AI) vào hệ thống đặt vé xe khách và triển khai kiểm thử các tính năng chính. Nó cũng đề cập đến phạm vi nghiên cứu, bao gồm thời gian thực hiện dự án và đối tượng tập trung là các bến xe có nhu cầu cao về dịch vụ xe khách.\n\nHệ thống được đề xuất sẽ cung cấp các chức năng như đăng ký tài khoản, quản lý thông tin người dùng, quản lý chuyến xe và vé, tối ưu hóa quy trình đặt vé, đa dạng hóa phương thức thanh toán, và thống kê báo cáo hoạt động.",
+    "sources": [
+      {
+        "content": "1.14 Tìm kiếm bằng giọng nói thông minh\nNgười dùng có thể sử dụng chức năng tìm kiếm bằng giọng nói để đặt vé một cách nhanh chóng và thuận tiện. Khi người dùng nói câu như \"Tôi muốn đi Vũng Tàu\", hệ thống sẽ tự động nhận diện vị trí hiện tại của người dùng, ví dụ như \"TP. Hồ Chí Minh\", dựa trên thông tin từ thiết bị của họ. Chat GPT, với dữ liệu tuyến đường đã được truyền vào hệ thống, sẽ kiểm tra xem tuyến đường \"TP. Hồ Chí Minh - Vũng Tàu\" có tồn tại hay không.\nNếu tuyến đường tồn tại, hệ thống sẽ trả về kết quả với định dạng \"Điểm đi - Điểm đến\" (ví dụ: \"TP. Hồ Chí Minh - Vũng Tàu\") và hiển thị các thông tin chi tiết về lịch trình, giờ chạy, giá vé và các tùy chọn chuyến xe cho người dùng. Trong trường hợp tuyến đường không tồn tại hoặc có sai sót, hệ thống sẽ thông báo cho người dùng rằng tuyến đường đó hiện chưa được hỗ trợ và đề xuất các phương án khác nếu có.",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "TRƯỜNG ĐẠI HỌC SÀI GÒN\nKHOA CÔNG NGHỆ THÔNG TIN\n \n \n  \nBÁO CÁO CUỐI KỲ\nHỌC PHẦN: CHUYÊN ĐỀ J2EE\nĐỀ TÀI:\nỨng dụng đặt vé xe khách\n\n3121410413-Phan Văn Quyến\n3121410153-Ngô Quốc Điền\n3121410015-Trần Phan Minh Thông\n\n\t\t \n      GVHD: Nguyễn Thanh Phước\nTP. HCM THÁNG 5/2025\nMỤC LỤC",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Khám phá và ứng dụng AI vào đề tài.\nTriển khai kiểm thử các tính năng chính để đảm bảo tính ổn định và độ chính xác của hệ thống trước khi áp dụng.\nPhạm vi nghiên cứu:\nNghiên cứu triển khai hệ thống trong khoảng thời gian 14 tuần. Chủ yếu áp dụng tại các bến xe khách tập trung nhu cầu cao về việc sử dụng dịch vụ xe buýt và người dùng có nhu cầu đặt vé xe nhanh chóng tiện lợi tại nhà.\nHệ thống tập trung vào các chức năng sau:\nĐăng nhập, đăng ký tài khoản cho người dùng.\nQuản lý thông tin người dùng, tài khoản, và quyền hạn.\nQuản lý chuyến xe, tuyến đường, chỗ ngồi, hóa đơn và vé xe.\nTối ưu và đơn giản hóa quy trình tìm kiếm tuyến đường và đặt vé xe, tra cứu vé xe, có thể sử dụng khi không đăng nhập.\nĐa dạng hóa phương thức thanh toán và quản lý hóa đơn.\nThống kê và báo cáo hoạt động, doanh thu.\nCHƯƠNG 2: SYSTEM REQUIREMENTS\n1. Chức năng của Người Dùng\n1.1 Đăng ký tài khoản",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Đa dạng hóa phương thức thanh toán và quản lý hóa đơn.\nThống kê và báo cáo hoạt động, doanh thu.\nCHƯƠNG 2: SYSTEM REQUIREMENTS\n1. Chức năng của Người Dùng\n1.1 Đăng ký tài khoản\nNgười dùng có thể tạo tài khoản bằng cách cung cấp các thông tin cơ bản như tên đăng nhập, mật khẩu, email, số điện thoại và các thông tin cá nhân khác. Ngoài ra, người dùng cũng có thể đăng ký và đăng nhập nhanh chóng thông qua tài khoản Gmail, Facebook, hoặc GitHub. Nếu lần đầu đăng nhập bằng một trong các phương thức này, người dùng chỉ cần nhập mật khẩu mới, và tài khoản sẽ được tạo tự động với các thông tin được lấy từ Gmail, Facebook, hoặc GitHub tương ứng. Sau khi đăng ký, người dùng có thể đăng nhập vào hệ thống để sử dụng các tính năng của trang web.\n1.2 Đăng nhập",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Người dùng cũng có thể hỏi về các dịch vụ bổ sung như hành lý, lựa chọn ghế ngồi, hoặc các ưu đãi đang có. Chatbot sẽ cung cấp thông tin một cách chi tiết và dễ hiểu, giúp người dùng có thể thao tác nhanh mà không cần phải tìm kiếm thủ công. Đặc biệt, chatbot còn hỗ trợ hướng dẫn người dùng nếu gặp khó khăn trong việc thanh toán hoặc cần thay đổi thông tin vé đã đặt.\nNgoài ra, chatbot có thể xử lý các yêu cầu dựa trên ngôn ngữ tự nhiên, như \"Tôi muốn đặt vé đi Đà Lạt vào cuối tuần này\", giúp người dùng có trải nghiệm liền mạch và thuận tiện hơn. Hệ thống chatbot hoạt động 24/7, đảm bảo người dùng luôn nhận được sự hỗ trợ nhanh chóng mọi lúc, mọi nơi.\n1.14 Tìm kiếm bằng giọng nói thông minh",
+        "metadata": {
+          "file_name": "3121410413_3121410015_3121410153.docx",
+          "upload_date": "2026-04-17T09:22:03.264268",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T09:28:19.332542"
   }
 ]
