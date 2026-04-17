@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Hệ thống sử dụng mô hình ngôn ngữ nào?",
+    "answer": "Mô hình ngôn ngữ Qwen2.5:7b.",
+    "sources": [
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy\ntrình triển khai và kết quả đạt được.\n4",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 13,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:35:34.541432",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\n9 KẾT LUẬN\n9.1 Tổng kết\nDự án đã xây dựng thành công một hệ thống RAG hoàn chỉnh với các tính năng:\n• Hỗ trợ tải lên và xử lý file PDF\n• Embedding đa ngôn ngữ với MPNet\n• Vector search với FAISS\n• LLM integration với Ollama (Qwen2.5:7b)\n• Giao diện web thân thiện với Streamlit\n• Tự động phát hiện ngôn ngữ và trả lời phù hợp\nHệ thống đã được test với nhiều loại tài liệu và cho kết quả chính xác, đáp ứng được\nyêu cầu đặt ra.\n25",
+        "metadata": {
+          "page": 26,
+          "start_line": 1,
+          "end_line": 13,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:35:34.541432",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "4. Tích hợp mô hình ngôn ngữ lớn Qwen2.5:7b được tối ưu cho tiếng Việt\n5. Xây dựng pipeline RAG hoàn chỉnh từ document loading đến answer generation\n6. Tối ưu hóa hiệu suất và độ chính xác của câu trả lời\n1.3 Phạm vi dự án\nDự án tập trung vào:\n• Xử lý tài liệu PDF đa ngôn ngữ\n• Hỗ trợ xuất sắc cho tiếng Việt và 50+ ngôn ngữ khác\n• Tự động phát hiện ngôn ngữ và trả lời phù hợp\n• Chạy local trên máy tính cá nhân\n• Sử dụng mô hình open-source và miễn phí\n5",
+        "metadata": {
+          "page": 6,
+          "start_line": 16,
+          "end_line": 26,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:35:34.541432",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\n1 GIỚI THIỆU\n1.1 Bối cảnh và động lực\nVới khối lượng thông tin ngày càng tăng trong các tài liệu số, việc tìm kiếm và trích xuất\nthông tin một cách hiệu quả đã trở thành thách thức lớn. Các phương pháp truyền thống\nnhư tìm kiếm từ khóa thường không đủ để hiểu ngữ cảnh và ý nghĩa sâu xa của câu hỏi.\nHệ thống RAG (Retrieval-Augmented Generation) kết hợp ưu điểm của:\n• Information Retrieval: Tìm kiếm thông tin liên quan từ cơ sở dữ liệu\n• Natural Language Generation: Sinh ra câu trả lời tự nhiên dựa trên thông tin\nđã tìm được\n1.2 Mục tiêu dự án\nDự án đặt ra các mục tiêu cụ thể sau:\n1. Xây dựng giao diện web thân thiện cho phép người dùng tải lên tài liệu PDF\n2. Tích hợp công nghệ embedding để chuyển đổi văn bản thành vector\n3. Triển khai vector database (FAISS) để lưu trữ và tìm kiếm hiệu quả\n4. Tích hợp mô hình ngôn ngữ lớn Qwen2.5:7b được tối ưu cho tiếng Việt\n5. Xây dựng pipeline RAG hoàn chỉnh từ document loading đến answer generation",
+        "metadata": {
+          "page": 6,
+          "start_line": 1,
+          "end_line": 17,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:35:34.541432",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\n2.3 Large Language Models (LLMs)\n2.3.1 Qwen2.5\nQwen2.5 là mô hình ngôn ngữ lớn phát triển bởi Alibaba Cloud:\nĐặc điểm:\n• Kiến trúc transformer-based thế hệ mới\n• Hỗ trợ context dài lên đến 128K tokens\n• Tối ưu xuất sắc cho tiếng Việt và đa ngôn ngữ\n• Phiên bản 7B parameters cân bằng giữa hiệu suất và chất lượng\n• Được train trên corpus đa ngôn ngữ bao gồm tiếng Việt\n• Performance vượt trội so với Llama3 cho tiếng Việt\n2.3.2 Ollama\nOllama là framework để chạy LLMs locally:\nTính năng:\n• API đơn giản, dễ sử dụng\n• Hỗ trợ nhiều mô hình khác nhau\n• Tối ưu performance cho local machine\n• Không cần internet sau khi tải model\n2.4 LangChain Framework\nLangChain là framework Python để xây dựng ứng dụng với LLMs:\nThành phần chính:\n• Document Loaders: Tải và parse các định dạng tài liệu\n• Text Splitters: Chia văn bản thành chunks nhỏ\n• Embeddings: Chuyển đổi text thành vectors\n• Vector Stores: Lưu trữ và tìm kiếm vectors",
+        "metadata": {
+          "page": 8,
+          "start_line": 1,
+          "end_line": 25,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:35:34.541432",
+          "document_type": "pdf"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:36:18.731865"
+  },
+  {
+    "question": "Hệ thống này làm gì?",
+    "answer": "Hệ thống này làm việc với tài liệu PDF đa ngôn ngữ, sử dụng mô hình ngôn ngữ lớn Qwen2.5:7b để embed các ngôn ngữ khác trong tài liệu. Tuy nhiên, câu hỏi người dùng chưa bao giờ nói rõ rằng họ đang muốn biết hệ thống làm gì. Nếu họ muốn biết, tôi có thể trả lời \"Hệ thống này giúp xử lý và tìm kiếm thông tin từ tài liệu PDF đa ngôn ngữ.\"",
+    "sources": [
+      {
+        "content": "4. Tích hợp mô hình ngôn ngữ lớn Qwen2.5:7b được tối ưu cho tiếng Việt\n5. Xây dựng pipeline RAG hoàn chỉnh từ document loading đến answer generation\n6. Tối ưu hóa hiệu suất và độ chính xác của câu trả lời\n1.3 Phạm vi dự án\nDự án tập trung vào:\n• Xử lý tài liệu PDF đa ngôn ngữ\n• Hỗ trợ xuất sắc cho tiếng Việt và 50+ ngôn ngữ khác\n• Tự động phát hiện ngôn ngữ và trả lời phù hợp\n• Chạy local trên máy tính cá nhân\n• Sử dụng mô hình open-source và miễn phí\n5",
+        "metadata": {
+          "page": 6,
+          "start_line": 16,
+          "end_line": 26,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T22:20:26.388751",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\n9 KẾT LUẬN\n9.1 Tổng kết\nDự án đã xây dựng thành công một hệ thống RAG hoàn chỉnh với các tính năng:\n• Hỗ trợ tải lên và xử lý file PDF\n• Embedding đa ngôn ngữ với MPNet\n• Vector search với FAISS\n• LLM integration với Ollama (Qwen2.5:7b)\n• Giao diện web thân thiện với Streamlit\n• Tự động phát hiện ngôn ngữ và trả lời phù hợp\nHệ thống đã được test với nhiều loại tài liệu và cho kết quả chính xác, đáp ứng được\nyêu cầu đặt ra.\n25",
+        "metadata": {
+          "page": 26,
+          "start_line": 1,
+          "end_line": 13,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T22:20:26.388751",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy\ntrình triển khai và kết quả đạt được.\n4",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 13,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T22:20:26.388751",
+          "document_type": "pdf"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T22:22:58.467846"
+  }
+]

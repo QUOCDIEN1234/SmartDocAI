@@ -1,0 +1,245 @@
+[
+  {
+    "question": "Các tính năng chính của hệ thống là gì?",
+    "answer": "Các tính năng chính của hệ thống bao gồm tìm kiếm nhanh chóng thông tin về tài xế dựa trên tên, mã số hoặc lịch làm việc, và quản lý vé xe buýt một cách dễ dàng.",
+    "sources": [
+      {
+        "content": "trong các phương thức này, người dùng chỉ cần nhập mật khẩu mới, và tài khoản sẽ được tạo tự động với các thông tin được lấy từ Gmail, Facebook, hoặc GitHub tương ứng. Sau khi đăng ký, người dùng có thể đăng nhập vào hệ thống để sử dụng các tính năng của trang web.",
+        "metadata": {
+          "file_name": "temp.docx",
+          "upload_date": "2026-04-17T21:23:34.619132",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Tài xế: Chức năng này giúp tìm kiếm nhanh chóng thông tin về tài xế dựa trên tên, mã số, hoặc lịch làm việc của họ.\nHệ thống sử dụng công nghệ nhận diện giọng nói chính xác để chuyển đổi câu lệnh của người dùng thành các từ khóa tìm kiếm. Sau khi nhận diện, hệ thống sẽ tự động hiển thị kết quả tương ứng với yêu cầu của người quản lý, tiết kiệm thời gian và giảm thiểu sai sót khi nhập liệu thủ công.",
+        "metadata": {
+          "file_name": "temp.docx",
+          "upload_date": "2026-04-17T21:23:34.619132",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Tìm hiểu và tích hợp các công nghệ, tiện ích có sẵn trên thị trường vào đề tài để nâng cao trải nghiệm người dùng.\nKhám phá và ứng dụng AI vào đề tài.\nTriển khai kiểm thử các tính năng chính để đảm bảo tính ổn định và độ chính xác của hệ thống trước khi áp dụng.\nPhạm vi nghiên cứu:",
+        "metadata": {
+          "file_name": "temp.docx",
+          "upload_date": "2026-04-17T21:23:34.619132",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Phương pháp nghiên cứu:\nThu thập dữ liệu và phân tích các quy trình truyền thống trong việc đặt vé và quản lý thông tin xe buýt từ các bến xe hiện tại, tham khảo các ý tưởng thực hiện từ các website của các nhà xe trên thị trường.\nThu thập và phân loại các yêu cầu chức năng và phi chức năng thông qua khảo sát người dùng.",
+        "metadata": {
+          "file_name": "temp.docx",
+          "upload_date": "2026-04-17T21:23:34.619132",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Mục đích nghiên cứu:\nXây dựng một hệ thống phần mềm giúp số hóa quy trình quản lý đặt vé xe buýt. \nTối ưu hóa thời gian và giảm thiểu sai sót trong việc quản lý vé xe,quy trình đặt vé, và hóa đơn. \nNâng cao trải nghiệm người dùng thông qua giao diện dễ sử dụng và chức năng tìm kiếm có hỗ trợ bằng công nghệ AI, nhanh chóng và chính xác.\nHỗ trợ nhà xe trong việc thống kê, quản lý thông tin chuyến xe, tài khoản, người dùng và doanh thu một cách hiệu quả.",
+        "metadata": {
+          "file_name": "temp.docx",
+          "upload_date": "2026-04-17T21:23:34.619132",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:26:10.290152"
+  },
+  {
+    "question": "Tóm tắt nội dung chính",
+    "answer": "Đúng vậy, tôi đã hiểu rõ. Các tính năng chính của hệ thống là tìm kiếm nhanh chóng thông tin về tài xế dựa trên tên, mã số hoặc lịch làm việc, và quản lý vé xe buýt một cách dễ dàng. Bao gồm mô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ và vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.",
+    "sources": [
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:27:17.468217"
+  },
+  {
+    "question": "Hệ thống RAG trong tài liệu sử dụng mô hình nào?",
+    "answer": "Bình luận: Qwen2.5:7b là mô hình được sử dụng để tạo ra câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.",
+    "sources": [
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 7,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 7,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 7,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 7,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:29:50.474233"
+  },
+  {
+    "question": "Mô hình đó có bao nhiêu tham số và hoạt động thế nào?",
+    "answer": "Mình không tìm thấy thông tin liên quan trong tài liệu để trả lời câu hỏi này.",
+    "sources": [],
+    "timestamp": "2026-04-17T21:30:03.852869"
+  },
+  {
+    "question": "Hãy cho biết thêm về cách nó được tích hợp vào hệ thống",
+    "answer": "Đúng vậy, tôi đã hiểu rõ. Các tính năng chính của hệ thống là tìm kiếm nhanh chóng thông tin về tài xế dựa trên tên, mã số hoặc lịch làm việc, và quản lý vé xe buýt một cách dễ dàng. Bao gồm mô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ và vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\n\nNgười dùng muốn biết thêm về cách nó được tích hợp vào hệ thống. Tôi sẽ tóm tắt lại:\n\n- Mô hình Qwen2.5:7b sử dụng Ollama để tạo ra câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\n- Hệ thống RAG hoàn chỉnh giúp người dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu thông qua việc sử dụng mô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ và vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\n- Hệ thống này tập trung vào việc xử lý tài liệu điện tử, giúp người dùng dễ dàng tìm kiếm và nắm bắt thông tin từ các tài liệu.\n\nDưới đây là một số tính năng cụ thể:\n1. Mô hình Qwen2.5:7b sử dụng Ollama để tạo ra câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\n2. Hệ thống RAG hoàn chỉnh giúp người dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu thông qua việc sử dụng mô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ và vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\n3. Hệ thống này tập trung vào việc xử lý tài liệu điện tử, giúp người dùng dễ dàng tìm kiếm và nắm bắt thông tin từ các tài liệu.",
+    "sources": [
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "đã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép\nngười dùng tải lên tài liệu PDF và đặt câu hỏi về nội dung tài liệu. Hệ thống sử dụng\nmô hình Qwen2.5:7b thông qua Ollama, kết hợp với công nghệ embedding đa ngôn ngữ\nvà vector database để cung cấp câu trả lời chính xác cho cả tiếng Việt và tiếng Anh.\nBáo cáo này trình bày chi tiết về kiến trúc hệ thống, các công nghệ được sử dụng, quy",
+        "metadata": {
+          "page": 5,
+          "start_line": 6,
+          "end_line": 11,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      },
+      {
+        "content": "Bài tập lớn OSSD 2026 RAG System với LLMs\nLỜI MỞ ĐẦU\nTrong kỷ nguyên số hiện nay, việc xử lý và tìm kiếm thông tin từ các tài liệu điện tử đã\ntrở thành một nhu cầu thiết yếu. Với sự phát triển mạnh mẽ của Trí tuệ nhân tạo (AI) và\nXử lý ngôn ngữ tự nhiên (NLP), các hệ thống RAG (Retrieval-Augmented Generation)\nđã nổi lên như một giải pháp hiệu quả cho bài toán này.\nDự án này được thực hiện nhằm xây dựng một hệ thống RAG hoàn chỉnh, cho phép",
+        "metadata": {
+          "page": 5,
+          "start_line": 1,
+          "end_line": 7,
+          "file_name": "project.pdf",
+          "upload_date": "2026-04-17T21:23:30.614433",
+          "document_type": "pdf"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:30:38.490012"
+  }
+]

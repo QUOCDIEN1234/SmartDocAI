@@ -651,6 +651,33 @@ def main():
         if selected_type_filter != "All":
             metadata_filter["document_type"] = selected_type_filter
 
+        st.markdown("### Chế độ tìm kiếm")
+        use_hybrid = st.toggle(
+            "🔄 Hybrid Search (BM25 + Semantic)",
+            value=False,
+            help="Bật để kết hợp tìm kiếm từ khóa (BM25) và tìm kiếm ngữ nghĩa (FAISS). Tắt để chỉ dùng Semantic Search."
+        )
+        if use_hybrid:
+            st.caption("✅ Hybrid Search: BM25 (40%) + Semantic FAISS (60%)")
+        else:
+            st.caption("🔵 Semantic Search: chỉ dùng FAISS vector similarity")
+
+        use_reranking = st.toggle(
+            "🎯 Re-ranking (Cross-Encoder)",
+            value=False,
+            help="Câu 9: Sau khi retrieval, dùng Cross-Encoder (ms-marco-MiniLM-L-6-v2) để đánh giá lại độ liên quan của từng đoạn văn. Chính xác hơn nhưng chậm hơn."
+        )
+        if use_reranking:
+            st.caption("✅ Re-ranking bật: Cross-Encoder sẽ sắp xếp lại kết quả sau retrieval")
+
+        use_self_rag = st.toggle(
+            "🧠 Self-RAG (Query Rewriting + Confidence Score)",
+            value=False,
+            help="Câu 10: LLM tự động viết lại câu hỏi cho rõ hơn trước khi tìm kiếm, và tự đánh giá độ tin cậy của câu trả lời."
+        )
+        if use_self_rag:
+            st.caption("✅ Self-RAG bật: query rewriting + tự đánh giá câu trả lời")
+
         with st.form("question_form", clear_on_submit=True):
             query = st.text_input("Nhập câu hỏi của bạn về tài liệu:")
             submitted = st.form_submit_button("Gửi câu hỏi")
@@ -660,13 +687,36 @@ def main():
                 query,
                 chat_history=st.session_state.chat_history,
                 metadata_filter=metadata_filter,
+                use_hybrid=use_hybrid,
+                use_reranking=use_reranking,
+                use_self_rag=use_self_rag,
             )
             answer = result.get("answer", "")
             sources = result.get("sources", [])
+            rewritten_query = result.get("rewritten_query")
+            confidence = result.get("confidence")
+
+            # Câu 10: Hiển thị query đã viết lại
+            if rewritten_query and rewritten_query.strip() != query.strip():
+                st.info(f"🔍 **Câu hỏi đã viết lại:** {rewritten_query}")
 
             source_documents = sorted({(s.get("metadata") or {}).get("file_name", "Unknown") for s in sources})
             if source_documents:
                 st.caption(f"Trả lời dựa trên tài liệu: {', '.join(source_documents)}")
+
+            # Câu 9: Hiển thị rerank scores trong sources
+            if use_reranking and sources:
+                rerank_info = [(s.get("metadata", {}).get("rerank_score"), s.get("metadata", {}).get("file_name", "?")) for s in sources]
+                scores_str = " | ".join([f"{fn}: {sc:.3f}" for sc, fn in rerank_info if sc is not None])
+                if scores_str:
+                    st.caption(f"📊 Rerank scores: {scores_str}")
+
+            # Câu 10: Hiển thị confidence score
+            if confidence and confidence.get("score", -1) >= 0:
+                score = confidence["score"]
+                reason = confidence.get("reason", "")
+                color = "🟢" if score >= 7 else ("🟡" if score >= 4 else "🔴")
+                st.caption(f"{color} Độ tin cậy: **{score}/10** — {reason}")
 
             # Lưu câu hỏi và câu trả lời vào lịch sử
             st.session_state.chat_history.append(

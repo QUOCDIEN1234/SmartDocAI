@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Tài liệu này viết về vấn đề gì",
+    "answer": "Tài liệu này viết về vấn đề với một dự án backend thực tế. Tôi sẽ giúp bạn viết README, giải thích các phần chính và hướng dẫn bạn thực hiện Project Tasks. Dưới đây là tài liệu bạn cần:  \nREADME: [Điền nội dung về README]\nProject Tasks:  [Thực hiện các mục trong Project Tasks]",
+    "sources": [
+      {
+        "content": "Project Tasks:\n- Implement authentication (login/register)\n- Secure APIs\n- Optimize slow queries\n\nGoal:\n- Become interview-ready backend developer\n7. Phase 5 (Month 9): Interview Preparation\nFocus:\n- Data Structures & Algorithms (basic)\n- Mock interviews\n- Explain your project clearly\n\nTasks:\n- Write README for project\n- Prepare answers for common questions:\n  + Explain OOP\n  + Explain REST API\n  + Explain your project architecture\n\nGoal:\n- Confident in interviews\n8. Key Principles\n- Always code, avoid passive learning\n- Focus on depth, not too many topics\n- Rebuild features multiple times (important)\n- Be able to explain everything you code",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Project Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)\n\nGoal:\n- Understand how Java works internally\n- Be able to explain concepts clearly\n4. Phase 2 (Month 3-4): Backend Basics with Spring Boot\nFocus:\n- Spring Boot fundamentals\n- REST API design\n- Dependency Injection\n- MVC architecture\n\nProject Tasks:\n- Build CRUD APIs (Transaction, Category)\n- Use Postman to test APIs\n- Add validation and error handling\n\nGoal:\n- Build a working backend API\n5. Phase 3 (Month 5-6): Database & Advanced Backend\nFocus:\n- SQL + MySQL\n- JPA/Hibernate\n- Entity relationships (OneToMany, ManyToOne)\n- Basic indexing\n\nProject Tasks:\n- Connect to MySQL\n- Store transactions in DB\n- Implement filtering (date, category)\n\nGoal:\n- Understand real backend data handling\n6. Phase 4 (Month 7-8): Advanced Topics\nFocus:\n- Spring Security (JWT login)\n- Caching (Redis basic)\n- Design patterns (Singleton, Strategy, Factory)\n- Basic system design",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Java Backend Interview Preparation Plan (9 Months)\n1. Overall Strategy\n- Focus on learning through building a real project (Personal Finance Manager).\n- Each concept must be applied immediately into your project.\n- Follow the rule: Learn → Apply → Refactor → Explain.\n- Spend 1 hour/day efficiently (no passive watching videos).\n2. Daily 1-Hour Structure\n- 10 mins: Review previous knowledge\n- 25 mins: Learn 1 concept (Java/Core/Spring)\n- 20 mins: Apply directly into project\n- 5 mins: Write short notes (important for interviews)\n3. Phase 1 (Month 1-2): Core Java Foundation\nFocus:\n- OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)\n- Collections (List, Set, Map)\n- Exception handling\n- Java memory model (Stack vs Heap)\n\nProject Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:38:06.128337"
+  },
+  {
+    "question": "Nội dung system design có được đề cập trong file không?",
+    "answer": "Câu hỏi của người dùng chưa rõ ràng. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời đúng đắn.",
+    "sources": [
+      {
+        "content": "Project Tasks:\n- Implement authentication (login/register)\n- Secure APIs\n- Optimize slow queries\n\nGoal:\n- Become interview-ready backend developer\n7. Phase 5 (Month 9): Interview Preparation\nFocus:\n- Data Structures & Algorithms (basic)\n- Mock interviews\n- Explain your project clearly\n\nTasks:\n- Write README for project\n- Prepare answers for common questions:\n  + Explain OOP\n  + Explain REST API\n  + Explain your project architecture\n\nGoal:\n- Confident in interviews\n8. Key Principles\n- Always code, avoid passive learning\n- Focus on depth, not too many topics\n- Rebuild features multiple times (important)\n- Be able to explain everything you code",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Project Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)\n\nGoal:\n- Understand how Java works internally\n- Be able to explain concepts clearly\n4. Phase 2 (Month 3-4): Backend Basics with Spring Boot\nFocus:\n- Spring Boot fundamentals\n- REST API design\n- Dependency Injection\n- MVC architecture\n\nProject Tasks:\n- Build CRUD APIs (Transaction, Category)\n- Use Postman to test APIs\n- Add validation and error handling\n\nGoal:\n- Build a working backend API\n5. Phase 3 (Month 5-6): Database & Advanced Backend\nFocus:\n- SQL + MySQL\n- JPA/Hibernate\n- Entity relationships (OneToMany, ManyToOne)\n- Basic indexing\n\nProject Tasks:\n- Connect to MySQL\n- Store transactions in DB\n- Implement filtering (date, category)\n\nGoal:\n- Understand real backend data handling\n6. Phase 4 (Month 7-8): Advanced Topics\nFocus:\n- Spring Security (JWT login)\n- Caching (Redis basic)\n- Design patterns (Singleton, Strategy, Factory)\n- Basic system design",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Java Backend Interview Preparation Plan (9 Months)\n1. Overall Strategy\n- Focus on learning through building a real project (Personal Finance Manager).\n- Each concept must be applied immediately into your project.\n- Follow the rule: Learn → Apply → Refactor → Explain.\n- Spend 1 hour/day efficiently (no passive watching videos).\n2. Daily 1-Hour Structure\n- 10 mins: Review previous knowledge\n- 25 mins: Learn 1 concept (Java/Core/Spring)\n- 20 mins: Apply directly into project\n- 5 mins: Write short notes (important for interviews)\n3. Phase 1 (Month 1-2): Core Java Foundation\nFocus:\n- OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)\n- Collections (List, Set, Map)\n- Exception handling\n- Java memory model (Stack vs Heap)\n\nProject Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:39:00.339550"
+  },
+  {
+    "question": "Trong phần  Database & Advanced Backend Focusc có sử dụng Postgrest không?",
+    "answer": "Câu hỏi của người dùng chưa rõ ràng. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời đúng đắn.",
+    "sources": [
+      {
+        "content": "Project Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)\n\nGoal:\n- Understand how Java works internally\n- Be able to explain concepts clearly\n4. Phase 2 (Month 3-4): Backend Basics with Spring Boot\nFocus:\n- Spring Boot fundamentals\n- REST API design\n- Dependency Injection\n- MVC architecture\n\nProject Tasks:\n- Build CRUD APIs (Transaction, Category)\n- Use Postman to test APIs\n- Add validation and error handling\n\nGoal:\n- Build a working backend API\n5. Phase 3 (Month 5-6): Database & Advanced Backend\nFocus:\n- SQL + MySQL\n- JPA/Hibernate\n- Entity relationships (OneToMany, ManyToOne)\n- Basic indexing\n\nProject Tasks:\n- Connect to MySQL\n- Store transactions in DB\n- Implement filtering (date, category)\n\nGoal:\n- Understand real backend data handling\n6. Phase 4 (Month 7-8): Advanced Topics\nFocus:\n- Spring Security (JWT login)\n- Caching (Redis basic)\n- Design patterns (Singleton, Strategy, Factory)\n- Basic system design",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Java Backend Interview Preparation Plan (9 Months)\n1. Overall Strategy\n- Focus on learning through building a real project (Personal Finance Manager).\n- Each concept must be applied immediately into your project.\n- Follow the rule: Learn → Apply → Refactor → Explain.\n- Spend 1 hour/day efficiently (no passive watching videos).\n2. Daily 1-Hour Structure\n- 10 mins: Review previous knowledge\n- 25 mins: Learn 1 concept (Java/Core/Spring)\n- 20 mins: Apply directly into project\n- 5 mins: Write short notes (important for interviews)\n3. Phase 1 (Month 1-2): Core Java Foundation\nFocus:\n- OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)\n- Collections (List, Set, Map)\n- Exception handling\n- Java memory model (Stack vs Heap)\n\nProject Tasks:\n- Build basic models: User, Transaction, Category\n- Implement in-memory data storage (no DB yet)",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      },
+      {
+        "content": "Project Tasks:\n- Implement authentication (login/register)\n- Secure APIs\n- Optimize slow queries\n\nGoal:\n- Become interview-ready backend developer\n7. Phase 5 (Month 9): Interview Preparation\nFocus:\n- Data Structures & Algorithms (basic)\n- Mock interviews\n- Explain your project clearly\n\nTasks:\n- Write README for project\n- Prepare answers for common questions:\n  + Explain OOP\n  + Explain REST API\n  + Explain your project architecture\n\nGoal:\n- Confident in interviews\n8. Key Principles\n- Always code, avoid passive learning\n- Focus on depth, not too many topics\n- Rebuild features multiple times (important)\n- Be able to explain everything you code",
+        "metadata": {
+          "file_name": "java_backend_study_plan.docx",
+          "upload_date": "2026-04-17T21:37:11.147861",
+          "document_type": "docx",
+          "page": "N/A",
+          "start_line": "N/A",
+          "end_line": "N/A"
+        }
+      }
+    ],
+    "timestamp": "2026-04-17T21:40:24.274927"
+  }
+]

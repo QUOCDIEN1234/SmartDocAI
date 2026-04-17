@@ -5,5 +5,7 @@ langchain-community
 langchain-core
 langchain-ollama
 langchain-text-splitters
+langchain-classic
 sentence-transformers
 faiss-cpu
+rank-bm25
